@@ -1,0 +1,28 @@
+.box-nav{
+    width: 1700px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 25px;
+    height: 72px;
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+.box-nav > h1{
+    letter-spacing: 3px;
+    font-size:xx-large;
+}
+.nav{
+    display: flex;
+    width: 675px;
+    margin-left: 390px;
+    margin-top: 31px;
+    margin-bottom: 20px;
+    justify-content: end;
+    justify-content: space-between;
+}
+.nav a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    color: rgb(32, 28, 28);
+}    
