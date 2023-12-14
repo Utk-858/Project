@@ -1,8 +1,10 @@
+/* Nav Bar  */
+
 .box-nav{
     width: 1700px;
     display: flex;
-    margin-left: 120px;
-    margin-top: 25px;
+    margin-left: 100px;
+    margin-top: 5px;
     height: 72px;
     font-family: 'Manrope';
     font-weight: 400;
@@ -17,7 +19,7 @@
     margin-left: 390px;
     margin-top: 31px;
     margin-bottom: 20px;
-    justify-content: end;
+    justify-items: end;
     justify-content: space-between;
 }
 .nav a{
@@ -26,3 +28,71 @@
     font-weight: 400;
     color: rgb(32, 28, 28);
 }    
+
+/* Explore Page  */
+
+.explore{
+    border: 2px solid red;
+    width: 1350px;
+    height: 720px;
+    margin: auto;
+    position: relative;
+}
+.explore-content{
+    color: #fff;
+    font-family: 'Bodoni Moda', serif;
+    font-size: xx-large;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    transform: translate(0px,-90px);
+}
+.img1{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/*  blocks in explore  */
+.o1{
+    margin: auto;
+    border-radius: 50px 50px 0 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    width: 330px;
+    height: 74px;
+    position: absolute;
+    bottom: 25%;
+    left: 25%;
+    padding: 16px, 32px, 16px, 32px;
+}
+.o1i1, .o1i2{
+    border-radius: 50px 50px 0 0;
+    font-size: large;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.o1i1{
+    border-radius: 40px;
+    color: #fff;
+    background-color: #177BA5;
+    width: 133px;
+    height: 42px;
+    padding-top: 10px;
+    margin: auto;
+}
+.o1i2{
+    height: 36px;
+    width: 101px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.o1i1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.o1i2 a{
+    text-decoration: none;
+    color:black;
+}
