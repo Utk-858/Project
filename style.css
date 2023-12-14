@@ -96,3 +96,77 @@
     text-decoration: none;
     color:black;
 }
+
+/*  upcoming offers  */
+
+.uo2{
+    background-color: hwb(0 94% 5%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.uo h1{
+    background-color: hwb(0 94% 5%);
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600px;
+    margin-bottom: 0;
+}
+
+.miami{
+    background-color: #fff;
+    width: 357px;
+    height: 469px;
+    padding: 32px;
+    border-radius: 50px;
+    gap: 24px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 90px;
+}
+.image img{
+    width: 293px;
+    height: 239px;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+h3{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 300x;
+}
+.info1, .info2{
+    display: flex;
+}
+.sub{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 400px;
+    height: 50px;
+}
+.chill{
+    width: Hug (61px);
+    height: Hug (21px);
+    padding: 0px, 15px, 0px, 15px;
+    border-radius: 40px;
+    gap: 8px;
+    background-color: rgba(214, 237, 235, 1);
+}
+.dollar{
+    font-family: 'Poppins';
+    font-size: 500;
+    color: black;
+}
+.book{
+    color: #fff;
+    width: Fixed (104.45px);
+    height: Hug (37px);
+    padding: 8px, 16px, 8px, 16px;
+    border-radius: 40px;
+    gap: 8px;
+    background: rgba(23, 123, 165, 1);
+}
