@@ -1,0 +1,85 @@
+.Box{
+    height: 800px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    width: Fixed (1,126px);
+    height: Hug (353px);
+    gap: 32px;
+    margin-left: 100px;
+}
+.box-1{
+    width: Fixed (423px);
+    height: Fixed (353px);
+}
+.box-2 img{
+    width: 217px;
+    height: 353px;
+    border-radius: 50px;
+    position: relative;
+}
+.box-3 img{
+    width: 217px;
+    height: 353px;
+    padding: 285px, 47px, 32px, 47px;
+    border-radius: 50px;
+    position: relative;
+}
+.heading{
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.text{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.icon{
+    width: 100px;
+    height: 50px;
+    margin-left: 400px;
+}
+.Name{
+    display: flex;
+    width: 1300px;
+    justify-content: flex-end;
+}
+.name{
+    width: 200px;
+    height: 60px;
+    top: 285px;
+    left: 47px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 6px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #54cfd3;
+    border-radius: 50px;
+}
+.indo{
+    color: #fff;
+    transform: translate(-107px,-366.5px);
+}
+.santo{
+    color: #fff;
+    transform: translate(-60px,-366.5px);
+}
+.amazon{
+    color: #fff;
+    background-color: #54cfd3;
+    transform: translate(-13px,-366.5px);
+}
