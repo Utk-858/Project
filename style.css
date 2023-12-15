@@ -170,3 +170,79 @@ h3{
     gap: 8px;
     background: rgba(23, 123, 165, 1);
 }
+.relax{
+    width: Hug (61px);
+    height: Hug (21px);
+    padding: 0px, 15px, 0px, 15px;
+    border-radius: 40px;
+    gap: 8px;
+    background: rgba(252, 221, 236, 1);
+}
+
+.e-book{
+    display: flex;
+    width: 1500px;
+    height: 800px;
+    align-items: center;
+    justify-content: space-around;
+}
+.image-ebook{
+    width: 615px;
+    height: 615px;
+}
+.image-ebook img{
+    width: 100%;
+    max-height: 100%;
+    margin-left: 20px;
+}
+.text-ebook{
+    width: 636px;
+    height: 770px;
+    margin-right: 50px;
+}
+.icon{
+    display: flex;
+    border-radius: 40px;
+    width: 202px;
+    height: 53px;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    background: rgba(23, 123, 165, 1);
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    transform: translate(0,-80px);
+}
+.text-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transform: translate(0,-10px);
+}
+.heading{
+    height: 100px;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(23, 123, 165, 1);
+}
+.para{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: justified;
+}
+.icon a{
+    text-decoration: none;
+    color: #fff;
+}
