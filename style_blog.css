@@ -1,69 +1,129 @@
+html{
+    font-size: 10px;
+}
 /*Blog*/
 .blog-heading{
     text-align: center;
     font-family: 'Poppins';
-    font-size: xx-larger;
+    font-size: 3.5rem;
 }
 .box{
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
-    height: 900px;
+    height: 90.0rem;
     justify-content: center;
-    transform: translate(50px,0);
+    transform: translate(5.0rem,0);
+    width: fit-content;
 }
 .nusa, .wf{
     height: auto;
     display: flex;
-    width: 1200px;
+    width: 120.0rem;
     justify-content: space-between;
+    width: fit-content;
 }
 .image{
-    width: 500px;
-    height: 300px;
+    width: 50.0rem;
+    height: 30.0rem;
 }
 .image img{
-    width: 548px;
-    height: 357px;
-    border-radius: 50px;
-
+    width: 32vw;
+    height: auto;
+    border-radius: 5.0rem;
+    margin-top: 5rem;
 }
  
 .content{
-    width: 50%;
+    max-width: 50%;
     display: flex;
     flex-direction: column;
-    transform: translate(50px,-25px);
+    transform: translate(5.0rem,-2.5rem);
 }
-.wf > .content{
-    transform: translate(50px,-30px);
-}
-.nusa > .image{
-    transform: translate(30px,20px);
-}
+
+.wf > .image{
+    transform: translate(-10rem,10.0rem);
+} 
 .heading {
     font-family: Poppins;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 57px;
+    font-size: 3.8rem;
+    font-weight: 60.0;
+    line-height: 5.7rem;
     letter-spacing: 0em;
     text-align: left;
 }
 .text{
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 400;
-    line-height: 48px;
+    line-height: 4.8rem;
     letter-spacing: 0em;
     text-align: left;
 }
 .icon{
     font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
+    font-size: 2.0rem;
+    font-weight: 60.0;
+    line-height: 3.0rem;
     letter-spacing: 0em;
 }
 a{
     text-decoration: none;
     color: black;
+}
+
+@media (max-width:1200px){
+    html{
+        font-size: 8px;
+    }
+}
+@media (max-width:1070px){
+    html{
+        font-size: 7px;
+    }
+}
+@media (max-width:920px){
+    html{
+        font-size: 6px;
+    }
+}
+@media (max-width:800px){
+    .box{
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .blog-heading{
+        margin-bottom: 50rem;
+        transform: translate(-5rem,0);
+    }
+    html{
+        font-size: 6px;
+    }
+    .wf{
+        flex-direction: column;
+    }
+    .nusa{
+        flex-direction: column-reverse;
+        transform: translate(15rem,0);
+    }
+    .nusa img{
+        width: 50rem;
+    }
+    .wf{
+        align-items: center;
+    }
+    .wf .content{
+        margin-top: 10rem;
+    }
+    .wf img{
+        margin-top: 0rem;
+        width: 50rem;
+        transform: translate(10rem,-10rem);
+    }
+}
+@media (max-width:550px){
+    html{
+        font-size: 5px;
+    }
 }

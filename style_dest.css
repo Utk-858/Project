@@ -1,6 +1,10 @@
+html{
+    font-size: 10px;
+}
+
 .Box{
-    height: 800px;
-    width: 1500px;
+    height: 80rem;
+    width: 150rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,78 +12,142 @@
 
 .box{
     display: flex;
-    width: Fixed (1,126px);
-    height: Hug (353px);
-    gap: 32px;
-    margin-left: 100px;
+    height: (35.3rem);
+    gap: 3.2rem;
+    margin-left: 10rem;
 }
 .box-1{
-    width: Fixed (423px);
-    height: Fixed (353px);
-}
-.box-2 img{
-    width: 217px;
-    height: 353px;
-    border-radius: 50px;
-    position: relative;
-}
-.box-3 img{
-    width: 217px;
-    height: 353px;
-    padding: 285px, 47px, 32px, 47px;
-    border-radius: 50px;
-    position: relative;
-}
-.heading{
-    font-family: 'Poppins';
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 72px;
-    letter-spacing: 0em;
-    text-align: left;
+    width: Fixed (42.3rem);
+    height: Fixed (34.3rem);
 }
 .text{
-    font-family: 'Poppins';
+    font-family: Poppins;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px;
     letter-spacing: 0em;
     text-align: justified;
 }
+.box-2 img{
+    width: 21.7rem;
+    height: 35.3rem;
+    border-radius: 5.0rem;
+    position: relative;
+}
+.heading{
+    font-family: 'Poppins';
+    font-size: 4.8rem;
+    font-weight: 600;
+    line-height: 7.2rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.text{
+    font-family: 'Poppins';
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 3.6rem;
+    letter-spacing: 0em;
+    text-align: justified;
+}
 .icon{
-    width: 100px;
-    height: 50px;
-    margin-left: 400px;
+    width: 10.0rem;
+    height: 5.0rem;
+    margin-left: 40.0rem;
 }
 .Name{
     display: flex;
-    width: 1300px;
+    width: 130.0rem;
     justify-content: flex-end;
 }
 .name{
-    width: 200px;
-    height: 60px;
-    top: 285px;
-    left: 47px;
+    width: 20.0rem;
+    height: 6.0rem;
+    top: 28.5rem;
+    left: 4.7rem;
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
-    line-height: 6px;
+    line-height: 0.6rem;
     letter-spacing: 0em;
     text-align: center;
     background: #54cfd3;
-    border-radius: 50px;
-}
-.indo{
+    border-radius: 5.0rem;
     color: #fff;
-    transform: translate(-107px,-366.5px);
+}
+.indo{  
+    transform: translate(9.4rem,-36.6rem);
 }
 .santo{
-    color: #fff;
-    transform: translate(-60px,-366.5px);
+    transform: translate(14rem,-36.6rem);
 }
 .amazon{
-    color: #fff;
     background-color: #54cfd3;
-    transform: translate(-13px,-366.5px);
+    transform: translate(19rem,-36.6rem);
+}
+.japan{
+    transform: translate(24rem,-36.6rem);
+}
+#change{
+    font-size: 1.6rem;
+}
+/* media queries  */
+
+
+
+/*media querie  */
+
+@media (max-width:1250px){
+    html{
+        font-size: 8px;
+    }
+}
+@media (max-width:1040px){
+    html{
+        font-size: 6px;
+    }
+    
+}
+@media (max-width:920px){
+    html{
+        font-size: 5px;
+    }
+    .box{
+        flex-direction: column;
+        gap: 0;
+    }
+    .Box{
+        align-items: flex-start;
+    }
+    .box-2 img{
+        width: 70rem;
+        height: 55rem;
+    }
+    /* .text{
+        text-align: fle;
+    } */
+    .Name{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-around;
+    }
+    .santo{
+        transform: translate(-10rem,20rem);
+    }
+    .indo{
+        transform: translate(-10rem,-20rem);
+    }
+    .amazon{
+        transform: translate(-10rem,65rem);
+    }
+    .japan{
+        display: none;
+        transform: translate(-10rem,110rem);
+    }
+}
+@media (max-width:700px){
+    .box{
+        transform: translate(-16rem,0);
+    }
 }

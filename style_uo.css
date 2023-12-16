@@ -1,0 +1,128 @@
+/*  upcoming offers  */
+html{
+    font-size: 10px;
+}
+.uo2{
+    background-color: hwb(0 94% 5%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+.uo h1{
+    background-color: hwb(0 94% 5%);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: xx-large;
+    font-weight: 60.0rem;
+    margin-bottom: 0;
+}
+
+.miami{
+    background-color: #fff;
+    width: 35.7rem;
+    height: 46.9rem;
+    padding: 3.2rem;
+    border-radius: 5.0rem;
+    gap: 2.4rem;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 9.0rem;
+}
+.image img{
+    width: 29.3rem;
+    height: 23.9rem;
+    border-radius: 4.0rem;
+    margin-left: 3.0rem;
+}
+.miami h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-left: 2rem;
+}
+.info1, .info2{
+    display: flex;
+}
+.sub{
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 40.0rem;
+    height: 5.0rem;
+}
+.chill{
+    width: Hug (6.1rem);
+    height: Hug (2.1rem);
+    padding: 0rem, 1.5rem, 0rem, 1.5rem;
+    border-radius: 4.0rem;
+    gap: 0.8rem;
+    background-color: rgba(214, 237, 235, 1);
+}
+.dollar{
+    font-family: 'Poppins';
+    font-size: 500;
+    color: black;
+}
+.book{
+    color: #fff;
+    width: Fixed (10.445rem);
+    height: Hug (3.7rem);
+    padding: 0.8rem, 1.6rem, 0.8rem, 1.6rem;
+    border-radius: 4.0rem;
+    gap: 0.8rem;
+    background: rgba(23, 123, 165, 1);
+}
+.relax{
+    width: Hug (6.1rem);
+    height: Hug (2.1rem);
+    padding: 0rem, 1.5rem, 0rem, 1.5rem;
+    border-radius: 4.0rem;
+    gap: 0.8rem;
+    background: rgba(252, 221, 236, 1);
+}
+#change{
+    font-size: 1.6rem;
+}
+
+
+/*      ###############  media queries    ##########    */
+@media (max-width:1200px) {
+    html{
+        font-size: 8px;
+    }
+}
+
+@media (max-width:721px) {
+    html{
+        font-size: 7px;
+    }
+    .box-nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        transform: translate(-15rem,0);
+    }
+    .box-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img1{
+        margin-top: 10rem;
+        height: 70vh;
+    }
+}
+
+@media (max-width:610px) {
+    html{
+        font-size: 6px;
+    }
+}
+@media (max-width:525px) {
+    html{
+        font-size: 5px;
+    }
+}
