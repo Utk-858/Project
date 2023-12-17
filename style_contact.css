@@ -148,3 +148,15 @@ a{
         transform: translate(30rem,-15rem);
     }
 }
+.disclaimer{
+    width: 100vw;
+    height: 2rem;
+    top: 1.5rem;
+    left: 58.7rem;
+
+}
+.disclaimer p{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
