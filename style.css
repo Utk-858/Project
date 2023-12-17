@@ -8,12 +8,13 @@ html{
     max-width: 170.0rem;
     display: flex;
     margin-top: 0.5rem;
-    height: 7.2rem;
+    height: 9.2rem;
     font-family: 'Manrope';
     font-weight: 400;
     width: fit-content;
 }
 .box-nav > h1{ 
+    
     margin-left: 6.0rem;
     letter-spacing: 0.3rem;
     font-size: 5rem;
@@ -44,7 +45,10 @@ html{
     border: 2px solid rgb(208, 4, 99);
     border-radius: 2rem;
 }    
-
+.nav a:hover{
+    background-color: rgb(212, 56, 173);
+    color: #fff;
+}
 /* Explore Page  */
 
 .explore{
@@ -69,7 +73,7 @@ html{
 }
 .img1{
     display: block;
-    max-width: 100vw;
+    max-width: 99vw;
 }
 
 /*  blocks in explore  */
@@ -118,7 +122,8 @@ html{
 #change{
     font-size: 1.6rem;
 }
-   
+
+
 
 /*  Media queries  */
 @media (max-width:1200px)
