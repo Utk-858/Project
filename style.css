@@ -71,6 +71,7 @@ html{
     margin-top: 3rem;
     position: relative;
     width: fit-content;
+    position: relative;
 }
 .explore-content{
     color: #fff;
@@ -86,14 +87,15 @@ html{
 }
 .img1{
     display: block;
-    max-width: 99vw;
+    max-width: 105vw;
+    transform: translate(-2rem,0);
 }
 
 /*  blocks in explore  */
 .o1{
     margin: auto;
-    border-radius: 5.0rem 5.0rem 0 0;
-    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5.0rem 5.0rem 5rem 5rem;
+    background-color: rgba(255, 255, 255, 0.812);
     display: flex;
     width: 33.0rem;
     height: 7.4rem;
@@ -101,6 +103,7 @@ html{
     bottom: 25%;
     left: 25%;
     padding: 1.6rem, 3.2rem, 1.6rem, 3.2rem;
+    transform: translateY(-7rem);
 }
 .o1i1, .o1i2{ 
     border-radius: 5.0rem 5.0rem 0 0;
@@ -111,8 +114,8 @@ html{
 }
 .o1i1{
     border-radius: 4.0rem;
-    color: #fff;
-    background-color: #177BA5;
+    color: black;
+    /* background-color: #177BA5; */
     width: 13.3rem;
     height: 4.2rem;
     padding-top: 1.0rem;
@@ -126,7 +129,7 @@ html{
 }
 .o1i1 a{
     text-decoration: none;
-    color: #fff;
+    color: black;
 }
 .o1i2 a{
     text-decoration: none;
@@ -135,6 +138,30 @@ html{
 #change{
     font-size: 1.6rem;
 }
+.o2{
+    margin-bottom: 0;
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.812);
+    width: 50vw;
+    height: 26vh;
+    border-radius: 5rem 5rem 5rem 5rem;
+    transform: translate(37.5vh,-70.5vh);
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffffdf;
+    
+}
+.box-o2i1 , .box-o2i2{
+    font-size: 2rem;
+    width: 18.477rem;
+    height: 10.9rem;
+    padding: 3.2rem;
+    border-radius: 4.0rem;
+    gap: 3.2rem;
+    border: 2px solid red;
+}
+
+
 
 
 
