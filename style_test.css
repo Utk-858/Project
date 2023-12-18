@@ -152,7 +152,11 @@ h1{
         transform: translate(0rem,10rem);
     }
 }
-@media (max-width:510px){
+@media (max-width:550px){
+    .box{
+        margin-top: 12rem;
+        height: 120vh;
+    }
     html{
         font-size: 6px;
     }
@@ -161,5 +165,9 @@ h1{
     }
     .box-1{
         width: 90vw;
+    }
+    .sub{
+        transform: translate(0rem,6rem);
+        height: 40rem;
     }
 }

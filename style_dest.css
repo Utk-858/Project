@@ -9,7 +9,9 @@ html{
     align-items: center;
     justify-content: center;
 }
-
+.less{
+    display: none;
+}
 .box{
     display: flex;
     height: (35.3rem);
@@ -149,5 +151,30 @@ html{
 @media (max-width:700px){
     .box{
         transform: translate(-16rem,0);
+    }
+}
+@media (max-width: 620px){
+    .more{
+        display: none;
+    }
+    .less{
+        display: block;
+    }
+    .box{
+        transform: translate(-30rem,0);
+    }
+    .indo{
+        transform: translate(-80rem,20rem);
+    }
+    .santo{
+        transform: translate(-80rem,77rem);
+    }
+    .amazon{
+        transform: translate(-80rem,134rem);
+    }
+}
+@media (max-width: 440px){
+    .box{
+        transform: translate(-40rem,0);
     }
 }

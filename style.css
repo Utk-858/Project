@@ -148,8 +148,8 @@ html{
         font-size: 8px;
     }
 }
-@media (max-width:1025px)
-{
+/*  */
+@media (max-width:1030px){
 
     html{
         font-size: 7px;
@@ -167,11 +167,10 @@ html{
         justify-content: space-between;
     }
     .img1{
-        margin-top: 10rem;
         height: 70vh;
+        width: 100vw;
+        margin-top: 0rem;
     }
-}
-@media (max-width:1030px){
     .box-nav .nav{
         display: none;
     }
@@ -269,5 +268,18 @@ html{
     }
     .navbar-container input[type='checkbox']:checked ~ .hamburger-lines .line-3{
         transform: rotate(-45deg);
+    }
+}
+@media (max-width:560px){
+    html{
+        font-size: 6px;
+    }
+}
+@media (max-width: 515px){
+    .img1{
+        height: 50vh;
+    }
+    .box-nav h1{
+        transform: translate(20rem,0);
     }
 }

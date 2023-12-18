@@ -125,8 +125,16 @@ a{
         font-size: 6px;
     }
 }
-@media (max-width:525px) {
+@media (max-width:525px){
     html{
-        font-size: 5px;
+        font-size: 8px;
+    }
+    .miami{
+        width: 80vw;
+        height: 50vh;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
     }
 }

@@ -90,12 +90,22 @@ html{
 @media (max-width:615px)
 {
     html{
-        font-size: 6px;
+        font-size: 7px;
+    }
+    .e-book{
+        flex-direction: column-reverse;
+    }
+    .text-box{
+        height: 60vh;
+        transform: translate(0,23rem);
+    }
+    .image-ebook{
+        transform: translate(0,13rem);
     }
 }
 @media (max-width:500px)
 {
     html{
-        font-size: 5px;
+        font-size: 6px;
     }
 }
