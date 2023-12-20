@@ -87,8 +87,8 @@ html{
 }
 .img1{
     display: block;
-    max-width: 105vw;
-    transform: translate(-2rem,0);
+    width: 105vw;
+    transform: translate(-1.34rem,0);
 }
 
 /*  blocks in explore  */
